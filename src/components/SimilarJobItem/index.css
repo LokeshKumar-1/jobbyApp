@@ -1,0 +1,22 @@
+.similar-job-item {
+  height: fit-content;
+  width: 300px;
+  background-color: #272727;
+  border-radius: 8px;
+  color: #f8fafc;
+  padding: 20px;
+  margin-right: 20px;
+}
+.similar-title {
+  margin-top: 15px;
+}
+.similar-desc {
+  color: #f1f5f9;
+}
+
+@media screen and (max-width: 767px) {
+  .similar-job-item {
+    width: 100%;
+    margin-top: 15px;
+  }
+}
